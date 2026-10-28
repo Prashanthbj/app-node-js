@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LE Test Application</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">LE Test App</div>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="tagline">NODE.JS WEB APPLICATION</p>
+            <h1>Your Test Server Is Ready!</h1>
+            <p>
+                Welcome to the LE test application. This page is served
+                by a Node.js application running on your server.
+            </p>
+            <button id="testButton">Test Application</button>
+            <p id="testResult"></p>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>About This Application</h2>
+            <p>
+                This sample application demonstrates how to host a
+                website using Node.js and Express. It includes static
+                page content, styles, and interactive JavaScript.
+            </p>
+        </section>
+
+        <section id="services" class="content-section">
+            <h2>Application Features</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Fast Response</h3>
+                    <p>Pages are served by a lightweight Node.js server.</p>
+                </article>
+                <article class="card">
+                    <h3>Health Check</h3>
+                    <p>Monitor the application through its health endpoint.</p>
+                </article>
+                <article class="card">
+                    <h3>Easy Deployment</h3>
+                    <p>Deploy from GitHub to your test server.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section contact">
+            <h2>Contact</h2>
+            <p>This is a sample contact section for testing page content.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 LE Test Application | Powered by Node.js</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
